@@ -1,0 +1,15 @@
+.sidebarRight {
+  padding: 25px 0 0 10px;
+  /* flex: 1; */
+  width: 25%;
+  position: fixed;
+  top: 50px;
+  right: 0;
+}
+
+@media (max-width : 900px) {
+  .sidebarRight {
+    display: none;
+    position: relative;
+  }
+}

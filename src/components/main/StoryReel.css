@@ -1,0 +1,8 @@
+.storyReel {
+  display: flex;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  height: 200px;
+  padding: 10px;
+}

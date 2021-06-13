@@ -1,0 +1,19 @@
+.feed {
+  flex: 2.5;
+  max-width: 40%;
+  margin: 40px 30% 0 30%;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width : 900px) {
+  .feed {
+    max-width: 100%;
+    display: flex;
+    width: 80%;
+    margin: 40px 0 0 0;
+  }
+}

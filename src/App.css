@@ -1,0 +1,12 @@
+.app {
+  background-color: #f1f2f5;
+  min-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.app__body {
+  display: flex;
+  gap: 20px;
+  max-width: 100%;
+}
